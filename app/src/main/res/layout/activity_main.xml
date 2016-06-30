@@ -3,16 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_8dp"
     tools:context=".activity.MainActivity">
 
     <Button
         android:id="@+id/btn_zhihu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:gravity="center"
+        android:padding="@dimen/dimen_8dp"
         android:text="知乎"
-        android:padding="4dp"
-        android:textSize="16sp" />
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_16sp" />
 
 </LinearLayout>
